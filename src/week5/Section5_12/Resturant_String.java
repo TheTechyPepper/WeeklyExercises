@@ -2,7 +2,7 @@ package week5.Section5_12;
 
 import java.util.Scanner;
 
-public class Nested_If_Practice_5 {
+public class Resturant_String {
     public static void main(String[] args) {
         //Restaurant menu app
 
@@ -12,7 +12,7 @@ public class Nested_If_Practice_5 {
         //2. Main Course
 
         //if the users picks Appetizers then
-        //user should displayed with the following two options
+        //user should be displayed with the following two options
         //1. Spring Rolls
         //2. Egg Rolls
 
@@ -27,9 +27,9 @@ public class Nested_If_Practice_5 {
         System.out.println("1. Appetizers");
         System.out.println("2. Main Course");
 
-        int firstOption = sc.nextInt();
+        String firstOption = sc.nextLine();
 
-        if (firstOption == 1) {
+        if (firstOption.equals("1")) {
             System.out.println("Please choose your appetizer:");
             System.out.println("1. Spring rolls");
             System.out.println("2. Egg Rolls");
@@ -37,12 +37,25 @@ public class Nested_If_Practice_5 {
 
             if (Appetizers == 1) {
                 System.out.println("Your Spring Rolls are being prepared");
-            }
-            else if (Appetizers == 2) {
+            } else if (Appetizers == 2) {
                 System.out.println("Your Egg Rolls are being prepared");
-            }else {
+            } else {
                 System.out.println("Invalid Input, please try again");
             }
+        } else if (firstOption.equals("2")) {
+            System.out.println("1. Chicken Curry");
+            System.out.println("2. New York Ribeye");
+            int mainCourseChoice = sc.nextInt();
+
+            if (mainCourseChoice == 1) {
+                System.out.println("Your Chicken Curry is being prepared by our Chef");
+            } else if (mainCourseChoice == 2) {
+                System.out.println("Your New York Ribeye is being grilled by our Chef");
+            } else {
+                System.out.println("Invalid Input, please try again");
+            }
+        } else {
+            System.out.println("Invalid option, only Appetizers and Main Courses are avaliable");
         }
     }
 }
