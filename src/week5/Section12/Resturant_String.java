@@ -1,4 +1,4 @@
-package week5.Section5_12;
+package week5.Section12;
 
 import java.util.Scanner;
 
@@ -29,27 +29,29 @@ public class Resturant_String {
 
         String firstOption = sc.nextLine();
 
-        if (firstOption.equals("1")) {
+        if (firstOption.equals("1") || firstOption.equals("Appetizers")) {
             System.out.println("Please choose your appetizer:");
             System.out.println("1. Spring rolls");
             System.out.println("2. Egg Rolls");
-            int Appetizers = sc.nextInt();
 
-            if (Appetizers == 1) {
+            String Appetizers = sc.nextLine();
+
+            if (Appetizers.equals("1") || Appetizers.equals("Spring Rolls")) {
                 System.out.println("Your Spring Rolls are being prepared");
-            } else if (Appetizers == 2) {
+            } else if (Appetizers.equals("2") || Appetizers.equals("Egg Rolls")) {
                 System.out.println("Your Egg Rolls are being prepared");
             } else {
                 System.out.println("Invalid Input, please try again");
             }
-        } else if (firstOption.equals("2")) {
+        } else if (firstOption.equals("2") || firstOption.equals("Main Course")) {
             System.out.println("1. Chicken Curry");
             System.out.println("2. New York Ribeye");
-            int mainCourseChoice = sc.nextInt();
 
-            if (mainCourseChoice == 1) {
+            String mainCourseChoice = sc.nextLine();
+
+            if (mainCourseChoice.equals("1") || mainCourseChoice.equals("Chicken Curry")) {
                 System.out.println("Your Chicken Curry is being prepared by our Chef");
-            } else if (mainCourseChoice == 2) {
+            } else if (mainCourseChoice.equals("2") || mainCourseChoice.equals("Ribeye")) {
                 System.out.println("Your New York Ribeye is being grilled by our Chef");
             } else {
                 System.out.println("Invalid Input, please try again");

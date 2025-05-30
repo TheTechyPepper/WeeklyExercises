@@ -1,4 +1,4 @@
-package week5.Section5_12;
+package week5.Section12;
 
 import java.util.Scanner;
 
