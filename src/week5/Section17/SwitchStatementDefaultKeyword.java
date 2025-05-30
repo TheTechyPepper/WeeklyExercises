@@ -1,6 +1,6 @@
 package week5.Section17;
 
-public class SwitchStatementDefaultKeywordPractice {
+public class SwitchStatementDefaultKeyword {
     public static void main(String[] args) {
 
         char grade = 'F';
