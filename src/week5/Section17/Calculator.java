@@ -7,12 +7,32 @@ public class Calculator {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter first number:");
-        float firtsNum = sc.nextFloat();
-        System.out.println("Enter first number:");
-        float secondNum = sc.nextFloat();
+        int firstNum = sc.nextInt();
+        System.out.println("Enter second number:");
+        int secondNum = sc.nextInt();
         System.out.println("Enter operator (+, -, *, /):");
         char operator = sc.next().charAt(0);
 
-        System.out.printf("firtsNum, char, secondNum);
+
+        switch(operator) {
+            case '+':
+                double result = firstNum + secondNum;
+                System.out.printf("Result: %.1f", result);
+                break;
+            case '-':
+                result = firstNum - secondNum;
+                System.out.printf("Result: %.1f", result);
+                break;
+            case '*':
+                result = firstNum * secondNum;
+                System.out.printf("Result: %.1f", result);
+                break;
+            case '/':
+                result = firstNum / secondNum;
+                System.out.printf("Result: %.1f", result);
+                break;
+            default:
+                System.out.println("Error: Invalid operator");
+        }
     }
 }
