@@ -12,16 +12,35 @@ public class VehicleFuelTypeAdvisor {
 
         switch (vehicleType) {
             case "Sedan":
-            case "SUV":
                 System.out.println("Enter your typical driving habits (City, Highway, Mixed):");
                 String drivingHabits = sc.nextLine();
                 switch (drivingHabits) {
                     case "City":
                         System.out.println("Recommended Fuel Type: Electric");
+                        break;
+                    case "Highway":
+                        System.out.println("Recommended Fuel Type: Diesel");
+                        break;
+                    case "Mixed":
+                        System.out.println("Recommended Fuel Type: Petrol");
+                        break;
+                    case "SUV":
+                        System.out.println("Enter your typical driving habits (City, Highway, Mixed):");
+                        drivingHabits = sc.nextLine();
+                        switch (drivingHabits) {
+                            case "City":
+                                System.out.println("Recommended Fuel Type: Electric");
+                                break;
+                            case "Highway":
+                                System.out.println("Recommended Fuel Type: Diesel");
+                                break;
+                            case "Mixed":
+                                System.out.println("Recommended Fuel Type: Petrol");
+                                break;
+                        }
+                    case "Truck":
+                    case " Motorcycle":
                 }
-            case "Truck":
-            case " Motorcycle":
-
         }
     }
 }
