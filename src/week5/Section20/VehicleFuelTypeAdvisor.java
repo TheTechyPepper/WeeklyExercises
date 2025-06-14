@@ -38,8 +38,11 @@ public class VehicleFuelTypeAdvisor {
                                 System.out.println("Recommended Fuel Type: Petrol");
                                 break;
                         }
-                    case "Truck":
-                    case " Motorcycle":
+            case "Truck":
+                System.out.println("Recommended Fuel Type: Diesel");
+                break;
+                    case "Motorcycle":
+                        System.out.println("Recommended Fuel Type: Petrol");
                 }
         }
     }
