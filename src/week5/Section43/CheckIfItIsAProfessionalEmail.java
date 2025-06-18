@@ -8,7 +8,7 @@ public class CheckIfItIsAProfessionalEmail {
     }
 
     public static void main(String[] args) {
-        boolean isEmailValid = isProfessionalEmail("QA_Automator@yahoo.com");
+        boolean isEmailValid = isProfessionalEmail("QA_Automator@hotmail.com");
         System.out.println(isEmailValid);
     }
 }
