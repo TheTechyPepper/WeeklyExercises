@@ -1,4 +1,4 @@
-package week5.Section43;
+package week5.Section44;
 
 public class IsRightEmailDomain {
     public static boolean checkEmailDomain(String emailAddress) {

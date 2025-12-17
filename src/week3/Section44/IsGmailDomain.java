@@ -1,4 +1,4 @@
-package week5.Section43;
+package week5.Section44;
 
 public class IsGmailDomain {
     public static boolean checkGmailDomain(String email ) {
