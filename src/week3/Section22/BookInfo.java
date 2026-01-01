@@ -1,4 +1,4 @@
-package week5_and_6.Section22;
+package week3.Section22;
 
 public class BookInfo {
     public static void main(String[] args) {

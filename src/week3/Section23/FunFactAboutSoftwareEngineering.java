@@ -1,4 +1,4 @@
-package week5_and_6.Section23;
+package week3.Section23;
 
 public class FunFactAboutSoftwareEngineering {
     public static void main(String[] args) {

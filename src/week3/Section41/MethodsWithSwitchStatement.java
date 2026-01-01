@@ -1,4 +1,4 @@
-package week5_and_6.Section41;
+package week3.Section41;
 
 public class MethodsWithSwitchStatement {
     public static void main(String[] args) {

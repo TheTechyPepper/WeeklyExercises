@@ -1,4 +1,4 @@
-package week5_and_6.Section29;
+package week3.Section29;
 
 public class MethodsWithStringReturnType {
     public static void main(String[] args) {
@@ -14,7 +14,8 @@ public class MethodsWithStringReturnType {
 
 
     public static String giveMyName() {
-        return "Temetrius"; // return statement is not System.out.println(); Therefore it will not print out anything
+        return "Temetrius"; // return statement is not System.out.println();
+                            // Therefore it will not print out anything
     }
 
     public static String giveMyLastName() {
@@ -28,3 +29,6 @@ public class MethodsWithStringReturnType {
         return firstName + " " + lastName;
     }
 }
+
+
+

@@ -1,4 +1,4 @@
-package week5_and_6.Section35;
+package week3.Section35;
 
 public class FindRemainder {
     public static void main(String[] args) {

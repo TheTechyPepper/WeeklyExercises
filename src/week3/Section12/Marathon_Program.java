@@ -1,4 +1,4 @@
-package week5_and_6.Section12;// Claener Version with slight help from ChatGPT
+package week3.Section12;// Claener Version with slight help from ChatGPT
 
 import java.util.Scanner;
 

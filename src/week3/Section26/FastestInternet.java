@@ -1,4 +1,4 @@
-package week5_and_6.Section26;
+package week3.Section26;
 
 public class FastestInternet {
     public static void main(String[] args) {

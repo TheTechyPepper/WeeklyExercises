@@ -1,4 +1,4 @@
-package week5_and_6.Section33;
+package week3.Section33;
 
 public class ParametersPractice1 {
     public static void main(String[] args) {

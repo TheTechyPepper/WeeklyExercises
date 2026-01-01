@@ -1,4 +1,4 @@
-package week5_and_6.Section45;
+package week3.Section45;
 
 public class PasswordValidation {
     public static void login(String username, String password) {

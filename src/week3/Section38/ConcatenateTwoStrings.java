@@ -1,4 +1,4 @@
-package week5_and_6.Section38;
+package week3.Section38;
 
 public class ConcatenateTwoStrings {
     public static void main(String[] args) {

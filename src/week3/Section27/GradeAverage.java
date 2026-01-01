@@ -1,4 +1,4 @@
-package week5_and_6.Section27;
+package week3.Section27;
 
 public class GradeAverage {
     public static void main(String[] args) {

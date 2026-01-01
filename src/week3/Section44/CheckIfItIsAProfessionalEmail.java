@@ -1,4 +1,4 @@
-package week5.Section44;
+package week3.Section44;
 
 public class CheckIfItIsAProfessionalEmail {
     public static boolean isProfessionalEmail(String emailAddress) {

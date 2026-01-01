@@ -1,4 +1,4 @@
-package week5_and_6.Section30;
+package week3.Section30;
 
 public class GetTheGrade {
     public static char getGrade(double studentCompletionPercentage) {

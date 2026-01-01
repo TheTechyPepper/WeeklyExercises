@@ -1,4 +1,4 @@
-package week5_and_6.Section36;
+package week3.Section36;
 
 public class PropertyTaxCalculator_PartialCode {
     public static void main(String[] args) {

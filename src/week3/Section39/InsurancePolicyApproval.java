@@ -1,4 +1,4 @@
-package week5_and_6.Section39;
+package week3.Section39;
 
 public class InsurancePolicyApproval {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package week5_and_6.Section34;
+package week3.Section34;
 
 public class SumOfTwoInts {
     public static void main(String[] args) {

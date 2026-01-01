@@ -1,4 +1,4 @@
-package week5_and_6.Section29;
+package week3.Section29;
 
 public class SayHello {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package week5_and_6.Section40;
+package week3.Section40;
 
 public class MethodsWithMultipleParametersAndDoubleReturnType {
     public static void main(String[] args) {
